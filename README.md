@@ -1,1 +1,1 @@
-# goinside
+# go-inside
