@@ -7,10 +7,7 @@ xls_file = sys.argv[1]
 
 wbook = load_workbook(xls_file)
 
-print('Please Select Worksheet:')
+print('Worksheets:')
 for name in wbook.sheetnames:
     print(name)
 
-def menu():
-    print('select:')
-    
