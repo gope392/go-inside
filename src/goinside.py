@@ -9,8 +9,11 @@ worksheets = workbook.worksheets
 
 for worksheet in worksheets:
     workbook.active = worksheet
-    print(f'El nombre del worksheet activo es: {workbook.active.title}')
-    columns = workbook.active.iter_cols(max_row=1, values_only=True)
+    print(f'Worksheet: {workbook.active.title}')
+    columns = list(workbook.active.iter_cols(max_row=1))
+    for column in columns:
+        cell, *other_cells = column
+        print(f'Cell {cell.column_letter}{cell.col_idx} = {cell.value}')
 
 
 #Identify worksheets
