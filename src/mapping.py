@@ -1,0 +1,13 @@
+Ticket_Id=0
+Tipo=1
+Resumen=2
+Prioridad=3
+Estado=4
+Fecha_de_creacion=5
+Fecha_de_cambio=6
+Fecha_de_resolucion=7
+Resolucion=8
+Solicitante=9
+Asignado=10
+Descripcion=11
+Fecha_estimada=12
