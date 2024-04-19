@@ -39,3 +39,4 @@ def attr_count(attr, obj_list):
 
 attr_count('Tipo', tickets)
 attr_count('Estado', tickets)
+attr_count('Worksheet', tickets)
